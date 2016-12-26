@@ -1,0 +1,9 @@
+<div class="wrapper">
+      <div class=" container form-signin">
+            <%= simple_form_for @home do |f| %>
+                  <%= f.input :film, :collection => @films, :label_method => :titre, :value_method => :titre, :label => "film" , :include_blank => false, prompt:"none" %>
+                  <%= f.input :group %>
+                  <%= f.button :submit, "ADD", class: "btn btn-primary btn-lg btn-block btn-color" %>
+              <% end %>
+      </div>
+</div>

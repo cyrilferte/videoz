@@ -1,0 +1,13 @@
+
+
+<div class="container">
+    <br><br><br>
+    <h1 class="text-center"><%= @film.titre %></h1><br><br>
+    <IFRAME class="iframevideo" SRC="<%= @film.link %>" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO allowfullscreen="true" WIDTH=100% HEIGHT=500></IFRAME><br>
+   <a href="https://www.facebook.com/sharer/sharer.php?u=videoz.fertec/films/<%=@film.id %>" target="_blank" class="btn btn-primary btn-large">
+  Share on Facebook
+</a>
+<a class="twitter-share-button btn btn-primary btn-large" href="https://twitter.com/intent/tweet?text=Regarde%20ça%20!%20http://videoz.fertec/films/<%=@film.id %>" data-size="large" >Share on Tweeter</a>
+
+
+</div>

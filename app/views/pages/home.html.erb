@@ -1,2 +1,9 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<link href="https://vjs.zencdn.net/5-unsafe/video-js.css" rel="stylesheet" />
+
+
+<div class="container">
+    <br><br><br>
+    <h1 class="text-center">Video du jour</h1><br><br>
+    <IFRAME class="iframevideo" SRC="<%= @film.last.link %>" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO allowfullscreen="true" WIDTH=100% HEIGHT=500></IFRAME><br>
+</div>
+

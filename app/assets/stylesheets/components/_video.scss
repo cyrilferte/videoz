@@ -1,0 +1,70 @@
+iframe.iframevideo {margin:0 auto;
+}
+body{background-color:#BE90D4;}
+.product {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 3px;
+  transition: all 0.15s ease;
+  background:#ecf0f1;
+}
+
+/* Body design */
+.product-body {
+  flex: 1 1 auto;
+}
+.product-body h3 {
+  font-weight: bold;
+  font-size: 23px;
+  margin-top: 0;
+}
+.product-body p {
+  font-weight: lighter;
+  color: #999999;
+  margin-bottom: 0;
+}
+
+
+
+/* Upvote design */
+
+.product-count {
+  margin: 2px 0 0;
+}
+.product-arrow {
+  transition: all 0.15s ease;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid transparent;
+  border-bottom: 9px solid black;
+  border-radius: 2px;
+  margin: auto;
+}
+
+
+
+/* Hover effects */
+.product:hover {
+  background: #f7f7fa;
+
+  text-decoration: none;
+}
+
+.product:hover .product-upvote { transform: scale(1.2);text-decoration: none; }
+.product:hover .product-controls-hidden a { color: #E6E6E6; text-decoration: none;}
+.ttext{text-decoration: none;
+color:black;
+ text-decoration:none;}
+.ttext:hover{text-decoration: none;
+color:black;
+ }
+
+
+
+.product:hover {
+  background: #ecf0f1;
+}
+.big{width:150px;}
