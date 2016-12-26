@@ -17,9 +17,8 @@ gem 'simple_form'
 gem 'autoprefixer-rails'
 
 #user gem
-gem "algoliasearch-rails"
-gem 'will_paginate', '~> 3.1.0'
-gem 'kaminari'
+
+
 
 
 group :development, :test do
